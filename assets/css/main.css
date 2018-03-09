@@ -16,7 +16,7 @@ canvas{
     
 section{
     outline: 1px solid green;
-    height: 100vh;
+    height: 100vh !important;
   }
 
   .section_one {
@@ -100,4 +100,11 @@ footer{
 
   nav ul a.active {
     background: rgba(0,0,0,0.2);
+  }
+  .text{
+    font-size: 4em;
+    font-weight: bolder;
+  }
+  .text span {
+    font-size: 2em;
   }

@@ -23,7 +23,15 @@
 $(document).ready(function(){
 	$('.scrollspy').scrollSpy();
 	$(".button-collapse").sideNav();
+	$('span.text-change').typed({
+        strings: ["Solutions", "Design", "Innovation"], //array text
+        typeSpeed: 70,
+        backDelay: 200,
+        callback: function () { $(this) }
+    });
   });
+
+
 window.addEventListener("load", function() {
 	var ctx = document.getElementById('background').getContext('2d');
 	//gradient
