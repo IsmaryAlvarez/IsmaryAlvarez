@@ -91,7 +91,6 @@ canvas {
   color: white;
   cursor: pointer;
 }
-
 .tool {
   margin-top: 3em;
 }
@@ -106,22 +105,36 @@ canvas {
   color: #fff;
   padding-top: 1em;
 }
-/*
-.right, .card a{
-	color: #E1004B;
-}
-.work{
-	padding-top: 4rem;
-}
-.card-title{
-	font-size: 20px !important;
-	color: #181624;
-}
-.code{
-	margin-right: 1rem;
-}
 
 /*CONTAC ME*/
+.contact-icons-list {
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact-icons-list li, .contact-icons-list li:after {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  color: white !important;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+ul>li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: #ee6e73;
+  color: white;
+
+}
+.fa {
+  color: white;
+}
 #contact {
   color: #43485f;
 }
