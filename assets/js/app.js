@@ -8,8 +8,8 @@ $(document).ready(function(){
         backDelay: 200,
         callback: function () { $(this) }
 	});
-	$('.smoove').smoove({opacity:'0', moveX: '90px',});
-	$('.smooVert').smoove({opacity:'0', moveY: '90px',});
+	$('.smoove').smoove({opacity:'0', moveX: '100px',});
+	$('.smooVert').smoove({opacity:'0', moveY: '100px',});
 
   });
 window.addEventListener('load', function() {
