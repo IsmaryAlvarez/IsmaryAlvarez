@@ -6,13 +6,17 @@
 }
 
 /* Nav Styles */
+nav {
+  color: #fff;
+  background-color: #51097A;
+}
 nav ul a {
   font-size: 1.5em;
 }
 .nav ul > li {
   list-style-type: none;
   display: inline-block;
-  background-color: #ee6e73;
+  background-color: #51097A;
   color: white;
 }
 .fa {
@@ -22,12 +26,13 @@ nav ul a {
   width: 200px;
 }
 .side-nav li>a {
-  color: #ee6e73;
+  color: #51097A;
+  text-align: center;
 }
-.side-nav img{
-  width: 20vh;
-  height: 20vh;
-  margin: 10em 0 1em 1.5em;
+.side-nav img {
+    width: 17vh;
+    height: 17vh;
+    margin: 10em 0 1em 3.5em;
 }
 
 /* Canvas Tag */
@@ -58,15 +63,17 @@ canvas {
   min-height: 100vh;
 }
 #about {
-  font-family: "Raleway", sans-serif;
   font-weight: 800;
   text-align: center;
   color: #43485f;
 }
+#sobre p{
+  font-family: "Raleway", sans-serif;
+}
 .img-profile {
   width: 40vh;
   height: 40vh;
-  margin-top: 10rem;
+  margin-top: 25%;
 }
 /*SKILLS*/
 #skills {
@@ -86,6 +93,10 @@ canvas {
 #skills img{
   height: 0.7em;
   margin-bottom: .2em;
+}
+#skills .smooVert{
+  background-color: rgba(0,0,0,0.60);
+  background-size: 100%;
 }
 .icon {
   font-size: 5em;
@@ -108,13 +119,16 @@ canvas {
 }
 
 /*CONTAC ME*/
+#contact{
+  height: 100vh;
+  color: #43485f;
+}
 .contact-icons-list {
   position: relative;
   list-style-type: none;
   text-align: center;
   font-size: 30px;
 }
-
 .contact-icons-list li, .contact-icons-list li:after {
   height: 80px;
   width: 80px;
@@ -129,16 +143,15 @@ canvas {
 #contact ul>li {
   list-style-type: none;
   display: inline-block;
-  background-color: #ee6e73;
+  background-color: #51097A;
   color: white;
 }*/
 .fa {
   color: white;
 }
-#contact {
-  color: #43485f;
+#contact h4{
+  font-family: "Raleway", sans-serif;
 }
-
 #contact ul:not(.browser-default) > li {
   list-style-type: none;
   margin: 0.5em;
@@ -166,13 +179,15 @@ canvas {
 
 /* FOOTER STYLES */
 footer {
-  background-color: #ef7b84;
+  background-color: #51097A;
   color: #fff;
   height: 5em;
+  display: flex;
+  justify-content: center;
 }
 footer p {
-  padding-top: 1em;
   font-size: 1.4em;
+  text-align: center;
 }
 
 /*hover de project*/
@@ -222,7 +237,7 @@ footer p {
   z-index: 1;
   opacity: 1;
   padding: 30px 0 30px 10px;
-  background-color: #ee6e73;
+  background-color: #51097A;
   width: 40%;
   -webkit-transform: translateX(150%);
   transform: translateX(150%);
@@ -239,7 +254,7 @@ footer p {
   height: 0;
   border-style: solid;
   border-width: 120px 120px 120px 0;
-  border-color: transparent #ee6e73 transparent transparent;
+  border-color: transparent #51097A transparent transparent;
 }
 
 .projectsList:after {
