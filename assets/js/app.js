@@ -8,9 +8,15 @@ $(document).ready(function(){
         backDelay: 200,
         callback: function () { $(this) }
 	});
-	$('.smoove').smoove({opacity:'0', moveX: '100px',});
+	$('.smoove').smoove({opacity:'0', moveY: '100px',});
 	$('.smooVert').smoove({opacity:'0', moveY: '100px',});
-
+	$('.tool').smoove({opacity:'0',
+    moveZ:"-500px",
+    moveY: "100px",
+    rotateX: "90deg",})
+	$('.work').smoove({ offset  : '-25%',
+    moveX   : '-100px',
+    moveY   : '100px',})
   });
 window.addEventListener('load', function() {
 	var ctx = document.getElementById('background').getContext('2d');

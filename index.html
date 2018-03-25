@@ -27,7 +27,6 @@
               class="button-collapse">
               <i class="material-icons">menu</i>
             </a>
-            </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li>
                 <a href="#sobre">About Me</a>
@@ -64,13 +63,18 @@
   </section>
 
   <!-- BACKGROUND -->
-  <div class=" col s12 m12 l12 xl12 center scrollspy">
-    <div class="text">More than Development...
-      <br>
-      <span class="text-change"></span>
+  <section>
+    <div class=" col s12 m12 l12 xl12 center scrollspy">
+      <div class="container-fluid">
+        <div class="text">More than Development...
+          <br>
+          <span class="text-change"></span>
+        </div>
+        <canvas id="background"></canvas>
+      </div>
     </div>
-  </div>
-  <canvas id="background"></canvas>
+  </section>
+
 
   <!-- ADDING BOX INFO ABOUT ME -->
   <section id="sobre" class="box-info section scrollspy">
@@ -84,16 +88,17 @@
           <p> My name is Ismary Álvarez, I'm 26 years old, trained as a Front-End Developer in Laboratoria, and as Mechanical
             Engineer in the Universidad del Zulia-Venezuela. My passion is to give solutions to problems through Front-End
             development and the logical thinking of engineering. I consider myself enthusiastic, cheerful, responsible and
-            above all persevering, with great communication skill, with the desire to continue learning and improving in
-            the personal and professional field, which is why I'm constantly learning, always looking for new opportunities
-            that help for ways to achieve my goals.</p>
+            above all persevering, with great communication skills and the desire to continue learning and improving in both
+            personal and professional field, which is why I'm constantly learning, always looking for new opportunities that
+            help me to achieve the team's goals.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- SKILLS-->
-  <section id="skills" class="section scrollspy">
+
+  <section id="skills" class="section scrollspy foo-skills">
     <div class="container smooVert">
       <div class="row">
         <div class="col s12 m12 l12 xl12 center-align">
@@ -208,7 +213,8 @@
   </section>
 
   <!-- ADDING PROJECTS SECTION -->
-  <section id="projects" class="background-three section scrollspy foo">
+
+  <section id="projects" class="background-three section scrollspy foo-projects">
     <div class="container work smoove">
       <div class="row">
         <div class="col s12 m12 l12 xl12 center-align title-work">
@@ -349,7 +355,7 @@
   </section>
 
   <!-- CONTACT ME -->
-  <section id="contact" class="section scrollspy valign-wrapper">
+  <section id="contact" class="section scrollspy valign-wrapper foo-contact">
     <div class="container smooVert">
       <div class="row">
         <div class="col s12 m12 l12 xl12 center-align title-contact">
@@ -358,22 +364,22 @@
         </div>
       </div>
       <div class="row">
-        <div class="col s10 offset-s1 m12 l12 xl12 center-align">
-            <ul class="contact-icons-list">
-              <li>
-                <span class="contact-icon tooltipped" data-position="top" data-delay="50" data-tooltip="+56941795967">
-                  <span class="icon-span">
-                    <i class="fa fa-mobile icon-font"></i>
-                  </span>
+        <div class="col s10  m12 l12 xl12 center-align">
+          <ul class="contact-icons-list">
+            <li>
+              <span class="contact-icon tooltipped" data-position="top" data-delay="50" data-tooltip="+56941795967">
+                <span class="icon-span">
+                  <i class="fa fa-mobile icon-font"></i>
                 </span>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/ismary-alvarez-diaz/" target="_blank" class="contact-icon">
-                  <span class="icon-span">
-                    <i class="fa fa-linkedin icon-font"></i>
-                  </span>
-                </a>
-              </li>
+              </span>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ismary-alvarez-diaz/" target="_blank" class="contact-icon">
+                <span class="icon-span">
+                  <i class="fa fa-linkedin icon-font"></i>
+                </span>
+              </a>
+            </li>
             <li>
               <a href="https://github.com/IsmaryAlvarez" target="_blank" class="contact-icon">
                 <span class="icon-span">
@@ -388,16 +394,20 @@
                 </span>
               </a>
             </li>
-            </ul>
-          </div>
+          </ul>
         </div>
       </div>
+    </div>
   </section>
 
   <!-- ADDING FOOTER -->
   <footer class="valign-wrapper">
     <div class="col s12 m12 l12 xl12">
-      <p class="">MADE WITH LOVE, HOPE, TEARS AND LOTS OF COFFEE</p>
+      <p class="">MADE WITH LOVE, HOPE, TEARS AND LOTS OF COFFEE
+        <span>
+          <i class="fa fa-coffee"></i>
+        </span>
+      </p>
     </div>
   </footer>
 

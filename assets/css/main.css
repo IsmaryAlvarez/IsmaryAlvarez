@@ -4,6 +4,11 @@
   padding: 0;
   font-family: 'Indie Flower', cursive;
 }
+:before, :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /* Nav Styles */
 nav {
@@ -37,7 +42,8 @@ nav ul a {
 
 /* Canvas Tag */
 .text {
-  font-size: 60px;
+  max-width: 100%;
+  font-size: 4em;
   color: #fff;
   font-weight: bold;
   z-index: 3;
@@ -120,7 +126,7 @@ canvas {
 
 /*CONTAC ME*/
 #contact{
-  height: 100vh;
+  min-height: 100vh;
   color: #43485f;
 }
 .contact-icons-list {
